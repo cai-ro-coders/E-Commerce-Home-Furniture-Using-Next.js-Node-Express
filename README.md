@@ -304,3 +304,13 @@ Change `PORT` in `backend/.env` or stop the conflicting process.
 ### Turbopack errors on Apple Silicon (Rosetta)
 
 The dev script already uses `--webpack`. If you see Turbopack errors, ensure `package.json` has `"dev": "next dev --webpack"`.
+
+
+<img src="https://raw.githubusercontent.com/cai-ro-coders/E-Commerce-Home-Furniture-Using-Next.js-Node-Express/refs/heads/main/1.png" alt="Cairocoders Ednalan">
+<img src="https://raw.githubusercontent.com/cai-ro-coders/E-Commerce-Home-Furniture-Using-Next.js-Node-Express/refs/heads/main/2.png" alt="Cairocoders Ednalan">
+<img src="https://raw.githubusercontent.com/cai-ro-coders/E-Commerce-Home-Furniture-Using-Next.js-Node-Express/refs/heads/main/3.png" alt="Cairocoders Ednalan">
+<img src="https://raw.githubusercontent.com/cai-ro-coders/E-Commerce-Home-Furniture-Using-Next.js-Node-Express/refs/heads/main/4.png" alt="Cairocoders Ednalan">
+<img src="https://raw.githubusercontent.com/cai-ro-coders/E-Commerce-Home-Furniture-Using-Next.js-Node-Express/refs/heads/main/5.png" alt="Cairocoders Ednalan">
+<img src="https://raw.githubusercontent.com/cai-ro-coders/E-Commerce-Home-Furniture-Using-Next.js-Node-Express/refs/heads/main/6.png" alt="Cairocoders Ednalan">
+<img src="https://raw.githubusercontent.com/cai-ro-coders/E-Commerce-Home-Furniture-Using-Next.js-Node-Express/refs/heads/main/7.png" alt="Cairocoders Ednalan">
+<img src="https://raw.githubusercontent.com/cai-ro-coders/E-Commerce-Home-Furniture-Using-Next.js-Node-Express/refs/heads/main/8.png" alt="Cairocoders Ednalan">
