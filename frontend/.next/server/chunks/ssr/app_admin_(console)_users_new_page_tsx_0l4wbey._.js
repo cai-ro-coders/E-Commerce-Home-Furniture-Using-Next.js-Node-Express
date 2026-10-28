@@ -1,0 +1,3 @@
+module.exports=[69896,a=>{"use strict";var b=a.i(87924),c=a.i(38246),d=a.i(7963),e=a.i(7830),f=a.i(34904);a.s(["default",0,function(){return(0,b.jsxs)("div",{className:"flex flex-col gap-6",children:[(0,b.jsx)(f.PageHeader,{title:"New account",description:"Create a staff or customer account. They can sign in as soon as you save.",actions:(0,b.jsxs)(c.default,{href:"/admin/users",className:"inline-flex items-center gap-1.5 text-sm font-medium text-sand-600 transition-colors hover:text-clay-700 dark:text-sand-300",children:[(0,b.jsx)(d.ChevronLeft,{className:"size-4","aria-hidden":!0}),"Back to users"]})}),(0,b.jsx)(e.UserForm,{})]})}])}];
+
+//# sourceMappingURL=app_admin_%28console%29_users_new_page_tsx_0l4wbey._.js.map

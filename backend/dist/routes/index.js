@@ -1,0 +1,48 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const health_controller_1 = require("../controllers/health.controller");
+const auth_routes_1 = __importDefault(require("./auth.routes"));
+const user_routes_1 = __importDefault(require("./user.routes"));
+const customer_routes_1 = __importDefault(require("./customer.routes"));
+const product_routes_1 = __importDefault(require("./product.routes"));
+const category_routes_1 = __importDefault(require("./category.routes"));
+const brand_routes_1 = __importDefault(require("./brand.routes"));
+const order_routes_1 = __importDefault(require("./order.routes"));
+const coupon_routes_1 = __importDefault(require("./coupon.routes"));
+const review_routes_1 = __importDefault(require("./review.routes"));
+const setting_routes_1 = __importDefault(require("./setting.routes"));
+const cart_routes_1 = __importDefault(require("./cart.routes"));
+const wishlist_routes_1 = __importDefault(require("./wishlist.routes"));
+const dashboard_routes_1 = __importDefault(require("./dashboard.routes"));
+const file_routes_1 = __importDefault(require("./file.routes"));
+const notification_routes_1 = __importDefault(require("./notification.routes"));
+const upload_routes_1 = __importDefault(require("./upload.routes"));
+const ApiResponse_1 = require("../utils/ApiResponse");
+const asyncHandler_1 = require("../utils/asyncHandler");
+const env_1 = require("../config/env");
+const router = (0, express_1.Router)();
+router.get('/health', health_controller_1.healthHandler);
+// Liveness probe for the admin dashboard's "API status" widget.
+router.get('/ping', (0, asyncHandler_1.asyncHandler)(async (_req, res) => (0, ApiResponse_1.ok)(res, { message: 'pong', env: env_1.env.nodeEnv })));
+router.use('/auth', auth_routes_1.default);
+router.use('/users', user_routes_1.default);
+router.use('/customers', customer_routes_1.default);
+router.use('/products', product_routes_1.default);
+router.use('/categories', category_routes_1.default);
+router.use('/brands', brand_routes_1.default);
+router.use('/orders', order_routes_1.default);
+router.use('/coupons', coupon_routes_1.default);
+router.use('/reviews', review_routes_1.default);
+router.use('/settings', setting_routes_1.default);
+router.use('/cart', cart_routes_1.default);
+router.use('/wishlist', wishlist_routes_1.default);
+router.use('/dashboard', dashboard_routes_1.default);
+router.use('/files', file_routes_1.default);
+router.use('/notifications', notification_routes_1.default);
+router.use('/upload', upload_routes_1.default);
+exports.default = router;
+//# sourceMappingURL=index.js.map

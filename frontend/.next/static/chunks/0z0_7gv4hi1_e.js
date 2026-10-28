@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,63570,e=>{"use strict";var t=e.i(43476),i=e.i(71645),l=e.i(56931),o=e.i(36145);e.s(["default",0,function({searchParams:e}){let r=(0,i.use)(e);return(0,t.jsx)(o.StoreShell,{children:(0,t.jsx)(l.CollectionView,{query:r})})}])}]);

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="PN">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="hsl(341 32% 94%)"/>
+      <stop offset="100%" stop-color="hsl(9 38% 84%)"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="256" height="256" rx="128"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="256" height="256" fill="url(#bg)"/>
+    <circle cx="209.92" cy="40.96" r="76.8" fill="#ffffff" opacity="0.35"/>
+    <circle cx="30.72" cy="225.28" r="66.56" fill="hsl(341 46% 24%)" opacity="0.06"/>
+    
+    <circle cx="112.2304" cy="104.96000000000001" r="22.528000000000002" fill="hsl(341 44% 62%)"/>
+    <rect x="137.0112" y="76.80000000000001" width="27.0336" height="56.32" rx="5.12" fill="hsl(341 44% 62%)" opacity="0.7"/>
+    <text x="128" y="184.32" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="hsl(341 46% 24%)">PN</text>
+    
+    <text x="128" y="212.48" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="7" letter-spacing="2" fill="hsl(341 24% 46%)">LUMERA</text>
+    <rect x="107.52" y="235.52" width="40.96" height="3" rx="2" fill="hsl(341 46% 24%)" opacity="0.35"/>
+  </g>
+</svg>
